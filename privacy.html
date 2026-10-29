@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Mauro Proxmox Backup</title>
+<style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1.2rem;color:#202124}a{color:#174ea6}h1,h2{line-height:1.25}</style>
+<main>
+<h1>Privacy Policy</h1>
+<p>Mauro Proxmox Backup. Last updated: 29 October 2026.</p>
+<h2>Purpose and information accessed</h2>
+<p>This personal desktop utility uses Google Drive to store and retrieve the owner's encrypted backup files and to verify transfers. Its only requested Google API scope is <code>https://www.googleapis.com/auth/drive.file</code>. That scope permits creating, reading, updating and deleting files created by this app or explicitly made available to it. The utility does not request unrestricted access to other existing Drive files, Gmail, contacts or calendars.</p>
+<h2>Storage and security</h2>
+<p>The rclone client encrypts backup contents and filenames locally using Crypt before upload. Google stores the encrypted files in the authorized account and still processes operational metadata such as file sizes, timestamps and API requests. Encryption does not hide all metadata from Google.</p>
+<p>OAuth client configuration and tokens are stored in the owner's private local client configuration. Encryption keys are separate local secrets. Local operational logs may include transfer metadata. Tokens, encryption keys and unencrypted backups are not published on this website or in its public source repository.</p>
+<h2>Use and sharing</h2>
+<p>Google user data is used only to perform the backup and recovery operations requested by the owner. It is not sold, used for advertising, shared with analytics providers or used to train AI models. The maintainer operates no separate server collecting the owner's Google user data. Google processes requests and stored files under its own terms and privacy policy. The application's use of information received from Google APIs complies with the Google API Services User Data Policy, including its Limited Use requirements.</p>
+<h2>Retention, deletion and revocation</h2>
+<p>The owner controls retention and can delete uploaded files in Google Drive, subject to Drive's trash and retention behavior, and remove local copies and credentials. Revoking the app in Google Account settings prevents further authorized API access; it does not automatically delete previously uploaded files or local copies. Keep encryption recovery keys privately available for any backups that must remain recoverable.</p>
+<h2>This website and contact</h2>
+<p>These static pages set no application cookies and include no analytics, tracking scripts or login form. GitHub Pages hosts the site and logs visitors' IP addresses for security according to <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub's documentation</a>.</p>
+<p>Maintainer: <a href="https://github.com/mrc-labs">mrc-labs on GitHub</a>. Use the support email on the Google consent screen for private privacy questions. Do not include secrets in public communications.</p>
+<p><a href="index.html">Home</a> | <a href="terms.html">Terms of Use</a></p>
+</main>
+</html>
