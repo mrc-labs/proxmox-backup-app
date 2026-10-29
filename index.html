@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mauro Proxmox Backup</title>
+<style>body{font:18px/1.6 system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1.2rem;color:#202124}a{color:#174ea6}nav{margin:2rem 0}h1,h2{line-height:1.25}</style>
+<main>
+<h1>Mauro Proxmox Backup</h1>
+<p>A personal utility for copying encrypted backup archives to the owner's Google Drive and retrieving them for recovery checks. It uses a locally operated rclone client; this website is informational and does not run backups or request Google sign-in.</p>
+<h2>Google Drive access</h2>
+<p>The desktop client requests only the <code>drive.file</code> permission, which allows it to create and manage files and folders created by this app or explicitly made available to it. It does not request unrestricted access to existing Drive files.</p>
+<p>Backup contents and filenames are encrypted locally with rclone Crypt before upload. The owner controls authorization, encryption keys, backup selection and retention. No public backup-sharing service is provided.</p>
+<nav><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></nav>
+<p>Maintainer: <a href="https://github.com/mrc-labs">mrc-labs on GitHub</a>. For private authorization questions, use the support email shown on the Google consent screen. Never post tokens, encryption keys or backups publicly.</p>
+</main>
+</html>
